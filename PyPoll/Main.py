@@ -47,13 +47,16 @@ with open(file, newline="") as csvfile:
     e = (c[1:4])
     f = (c[4:7])
 
-votes.sort(reverse=True)
-
+#Sorting in descending order of votes
 for i in range(len(uniquecandidate)):
-    result = zip(uniquecandidate, votes, votepct) # zips lists together
+    result = zip(uniquecandidate, votes, votepct) # zips lists together for sorting
 result_list = list(result)
 
 result_list.sort(key=lambda x: x[1], reverse=True) # want to sort by vote number
+
+name_elements = [name[0] for name in result_list]  #sorted name list by vote
+vote_elements = [vote1[1] for vote1 in result_list]  #sorted vote list by vote
+pct_elements = [pct[2] for pct in result_list]     #sorted percent list by vote
 
 # Print to terminal 
 print("===============================")
@@ -61,14 +64,16 @@ print("Election Results")
 print("===============================")
 print("Total Votes :" + str(d) +","+ str(e)+"," +str(f))    
 print("-------------------------------")
-for i in range(len(uniquecandidate)):
-    print(uniquecandidate[i] + ": " + "{:.3f}".format(votepct[i]) +"% (" + str(votes[i])+ " votes)")
+print("Khan:   ","{:.3f}".format(pct_elements[0]),"%  (",vote_elements[0],"votes)")
+print("Correy: ","{:.3f}".format(pct_elements[1]),"%  (",vote_elements[1],"votes)")
+print("Li:     ","{:.3f}".format(pct_elements[2]),"%  (",vote_elements[2],"votes)")
+print("O'Tooley:","{:.3f}".format(pct_elements[3]),"%  (",vote_elements[3],"votes)")
 print("===============================")
 print("The Winner is: " + winner)
 print("===============================")
 
 # Print to text file
-with open('election_results.txt', 'w') as text:
+with open("election_results.txt", 'w') as text:
     text.write("================================\n")
     text.write("Election Results\n")
     text.write("================================\n")
