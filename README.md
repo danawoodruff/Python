@@ -1,5 +1,9 @@
 # python-challenge
-PyBank utilizes Python script to perform a financial analysis. Calculate:
+PyBank utilizes Python script to perform a financial analysis. 
+
+Written and executed on Windows OS and Visual Studio Code.
+
+Calculate:
   * The total number of months included in the dataset
 
   * The net total amount of "Profit/Losses" over the entire period
