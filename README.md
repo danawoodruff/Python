@@ -14,6 +14,7 @@ Calculate:
   * The greatest increase in profits (date and amount) over the entire period
 
   * The greatest decrease in losses (date and amount) over the entire period
+  <p align="center><img src="Analysis/PyPoll.PNG"></p>
 
 PyPoll utilizes Python script to analyze the votes and calculate:
 
@@ -27,4 +28,4 @@ PyPoll utilizes Python script to analyze the votes and calculate:
 
   * The winner of the election based on popular vote.
   
-<p align="center><img src="></p>
+  <p align="center><img src="Analysis/PyPoll.PNG"></p>
