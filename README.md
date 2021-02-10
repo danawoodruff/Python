@@ -1,7 +1,5 @@
 <h2>Python</h2><br>
-<br>
 <h3>PyBank utilizes Python script to perform a financial analysis.</h3><br> 
-<br>
 Written and executed on Windows OS and Visual Studio Code.
 <br>
 Calculate:<br>
@@ -18,7 +16,6 @@ Calculate:<br>
   <p align="center><img src="Analysis/PyBank.PNG"></p>
 <br>
 <h3>PyPoll utilizes Python script to analyze the votes and calculate:</h3><br> 
-<br>
   * The total number of votes cast.<br>
 <br>
   * A complete list of candidates who received votes.<br>
