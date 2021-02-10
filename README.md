@@ -15,7 +15,6 @@ Calculate:<br>
   * The greatest decrease in losses (date and amount) over the entire period.<br>
 <br>
   <p align="center><img src="Analysis/PyBank.PNG"></p>
-<br>
 <h3>PyPoll utilizes Python script to analyze the votes and calculate:</h3><br> 
  <br>
 Calculate:<br>
