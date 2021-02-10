@@ -1,4 +1,4 @@
-Python
+Python<br>
 <br>
 PyBank utilizes Python script to perform a financial analysis. 
 
@@ -26,3 +26,5 @@ PyPoll utilizes Python script to analyze the votes and calculate:
   * The total number of votes each candidate won
 
   * The winner of the election based on popular vote.
+  
+<p align="center><img src="></p>
